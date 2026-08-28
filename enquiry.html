@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a service or make an enquiry with Mr.Fixers India Pvt Ltd. Email directly routed to saravanan.vp@mrfixers.in or call +91 7010180190.">
+  <title>Book a Service & Enquiry | Mr.Fixers India Pvt Ltd</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- FontAwesome Icons (HTTPS) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Zero-Flicker Dark Mode Init -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('mrfixers_theme_preference');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement & Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-item">
+          <span class="top-badge">FAST DISPATCH</span>
+          Punctual, background-verified technicians at your doorstep
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+917010180190">+91 7010180190</a>
+        </span>
+        <span class="top-bar-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:sales@mrfixer.in">sales@mrfixer.in</a>
+        </span>
+        <span class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          Trichy, Tamil Nadu
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo-wrap">
+        <img src="assets/images/logo-light.svg" alt="Mr.Fixers" class="brand-logo logo-light-only">
+        <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="brand-logo logo-dark-only">
+      </a>
+
+      <div class="city-pill">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Trichy, TN</span>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services & Rates</a>
+        <a href="services.html#beyond-maintenance" class="nav-link">Smart Solutions</a>
+        <a href="enquiry.html" class="nav-link active">Contact & Book</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="tel:+917010180190" class="btn btn-navy btn-sm">
+          <i class="fa-solid fa-phone"></i>
+          <span>Call 7010180190</span>
+        </a>
+        <button class="mobile-toggle-btn" aria-label="Open navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer -->
+  <div class="mobile-drawer">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <img src="assets/images/logo-light.svg" alt="Mr.Fixers" class="brand-logo logo-light-only" style="height: 38px;">
+        <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="brand-logo logo-dark-only" style="height: 38px;">
+        <button class="drawer-close-btn" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="drawer-nav">
+        <a href="index.html"><span><i class="fa-solid fa-house" style="margin-right: 12px; color: var(--brand-red);"></i>Home</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="about.html"><span><i class="fa-solid fa-building" style="margin-right: 12px; color: var(--brand-red);"></i>About Us</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html"><span><i class="fa-solid fa-screwdriver-wrench" style="margin-right: 12px; color: var(--brand-red);"></i>Services & Rates</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html#beyond-maintenance"><span><i class="fa-solid fa-bolt-lightning" style="margin-right: 12px; color: var(--brand-red);"></i>Smart Solutions</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="enquiry.html" class="active"><span><i class="fa-solid fa-headset" style="margin-right: 12px; color: var(--brand-red);"></i>Contact & Enquiry</span> <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+      <div class="drawer-footer">
+        <a href="tel:+917010180190" class="btn btn-navy">
+          <i class="fa-solid fa-phone"></i> Call 7010180190
+        </a>
+        <a href="https://wa.me/917010180190" target="_blank" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ENQUIRY HEADER -->
+    <section class="about-hero">
+      <div class="container text-center">
+        <span class="badge badge-red" style="background: rgba(255, 255, 255, 0.15); color: #ffffff; border-color: rgba(255, 255, 255, 0.3);"><i class="fa-solid fa-headset"></i> We are Here to Help</span>
+        <h1 class="section-title" style="margin-top: 16px;">Schedule a Service or Send an Enquiry</h1>
+        <p class="section-desc">Submit your maintenance request below and our team will get in touch immediately to confirm your appointment.</p>
+      </div>
+    </section>
+
+    <!-- ENQUIRY & CONTACT SECTION -->
+    <section class="container enquiry-section">
+      <div class="enquiry-grid">
+        <!-- Left: Booking Form -->
+        <div class="form-card">
+          <div style="margin-bottom: 28px;">
+            <h2 style="font-size: 1.85rem; margin-bottom: 8px;">Customer Booking Form</h2>
+            <p style="font-size: 0.95rem;">All submissions are routed directly to our operations team at <code style="color: var(--brand-red); font-weight: 700;">saravanan.vp@mrfixers.in</code>.</p>
+          </div>
+
+          <form id="mrfixersEnquiryForm">
+            <!-- Full Name & Phone -->
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="customer_name" class="form-label">Full Name <span class="req">*</span></label>
+                <input type="text" id="customer_name" class="form-control" placeholder="e.g. Ramesh Sundaram" required>
+              </div>
+              <div class="form-group">
+                <label for="customer_phone" class="form-label">Phone Number (WhatsApp) <span class="req">*</span></label>
+                <input type="tel" id="customer_phone" class="form-control" placeholder="e.g. 9876543210" required>
+              </div>
+            </div>
+
+            <!-- Email & Service Category -->
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="customer_email" class="form-label">Email Address</label>
+                <input type="email" id="customer_email" class="form-control" placeholder="e.g. yourname@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="service_select" class="form-label">Service Required <span class="req">*</span></label>
+                <select id="service_select" class="form-control" required>
+                  <option value="" disabled selected>Select a Service...</option>
+                  <option value="AC Service & Repair (₹799 Visit)">AC Service & Repair (₹799 Visit)</option>
+                  <option value="Electrician Inspection (₹499 Visit)">Electrician Inspection (₹499 Visit)</option>
+                  <option value="Plumbing Solutions (₹499 Visit)">Plumbing Solutions (₹499 Visit)</option>
+                  <option value="Painting & Civil Works (Free Quote)">Painting & Civil Works (Free Quote)</option>
+                  <option value="Commercial Facility AMC">Commercial Facility AMC</option>
+                  <option value="Industrial Maintenance">Industrial Maintenance</option>
+                  <option value="Total Facilities Management (TFM)">Total Facilities Management (TFM)</option>
+                  <option value="Smart Energy & Retrofit Solutions">Smart Energy & Retrofit Solutions</option>
+                  <option value="Other Maintenance Request">Other General Maintenance</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Property Type & Location Address -->
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="property_type" class="form-label">Property Type</label>
+                <select id="property_type" class="form-control">
+                  <option value="Residential (Apartment/Villa)">Residential (Apartment / Villa)</option>
+                  <option value="Commercial (Office / Retail)">Commercial (Office / Retail)</option>
+                  <option value="Hospital / Clinic">Hospital / Clinic</option>
+                  <option value="School / Institution">School / Institution</option>
+                  <option value="Industrial / Factory">Industrial / Factory</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="customer_address" class="form-label">Service Address / Area in Trichy</label>
+                <input type="text" id="customer_address" class="form-control" placeholder="e.g. Thillai Nagar / KK Nagar / Cantonment">
+              </div>
+            </div>
+
+            <!-- Preferred Date & Time Slot -->
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="preferred_date" class="form-label">Preferred Date</label>
+                <input type="date" id="preferred_date" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="preferred_time" class="form-label">Preferred Time Slot</label>
+                <select id="preferred_time" class="form-control">
+                  <option value="Morning (9:00 AM - 1:00 PM)">Morning (9:00 AM - 1:00 PM)</option>
+                  <option value="Afternoon (1:00 PM - 5:00 PM)">Afternoon (1:00 PM - 5:00 PM)</option>
+                  <option value="Evening (5:00 PM - 8:00 PM)">Evening (5:00 PM - 8:00 PM)</option>
+                  <option value="Urgent / Emergency (Earliest Slot)">Urgent / Emergency (Earliest Slot)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Additional Requirement Details -->
+            <div class="form-group">
+              <label for="customer_notes" class="form-label">Brief Description of Problem / Requirement</label>
+              <textarea id="customer_notes" class="form-control" placeholder="Describe the issue (e.g. AC not cooling in master bedroom, pipe leak under sink, rewiring estimate needed...)"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div style="margin-top: 28px;">
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Submit Booking & Send Email
+              </button>
+            </div>
+
+            <p style="font-size: 0.825rem; color: var(--text-muted); text-align: center; margin-top: 14px;">
+              <i class="fa-solid fa-lock" style="color: var(--brand-green);"></i> Your information is secure. We never share your contact details.
+            </p>
+          </form>
+        </div>
+
+        <!-- Right: Contact Information & Hours -->
+        <div>
+          <div class="contact-info-card">
+            <h3>Direct Contact & Support</h3>
+            <p style="color: #cbd5e1; font-size: 0.95rem;">Have questions or need emergency assistance? Reach out to our Trichy office directly.</p>
+
+            <div class="contact-detail-list">
+              <div class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-detail-text">
+                  <h5>Helpline & WhatsApp</h5>
+                  <p><a href="tel:+917010180190">+91 7010180190</a></p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-detail-text">
+                  <h5>Enquiry Email</h5>
+                  <p><a href="mailto:saravanan.vp@mrfixers.in">saravanan.vp@mrfixers.in</a></p>
+                  <p><a href="mailto:sales@mrfixer.in" style="font-size: 0.9rem; color: #94a3b8;">sales@mrfixer.in</a></p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-detail-text">
+                  <h5>Headquarters</h5>
+                  <p>Trichy, Tamil Nadu, India</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-clock"></i></div>
+                <div class="contact-detail-text">
+                  <h5>Working Hours</h5>
+                  <p>Mon - Sun: 8:00 AM - 9:00 PM</p>
+                  <span style="font-size: 0.8rem; color: #ff6b76; font-weight: 700;">24/7 Emergency Dispatch Available</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.15);">
+              <a href="https://wa.me/917010180190?text=Hi%20MrFixer,%20I%20have%20an%20urgent%20inquiry." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Official Tariff Summary Box -->
+          <div style="background: var(--bg-surface-alt); border-radius: var(--radius-lg); border: 1px solid var(--border-subtle); padding: 24px; margin-top: 24px;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 12px;"><i class="fa-solid fa-circle-check" style="color: var(--brand-green); margin-right: 8px;"></i>Quick Pricing Guide</h4>
+            <ul style="font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; color: var(--text-main);">
+              <li>• AC Tech Service Visit: <strong>₹799</strong></li>
+              <li>• Electrician Inspection: <strong>₹499</strong></li>
+              <li>• Plumber Inspection: <strong>₹499</strong></li>
+              <li>• Painting & Civil Quote: <strong>FREE VISIT</strong></li>
+            </ul>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 10px;">
+              *Visit charges discounted when work is awarded to MrFixer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS (FAQ) -->
+    <section style="background: var(--bg-surface); padding: 80px 0; border-top: 1px solid var(--border-subtle);">
+      <div class="container container-sm">
+        <div class="section-header text-center">
+          <span class="badge badge-primary"><i class="fa-solid fa-circle-question"></i> Help & FAQs</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">Clear answers to common questions about booking and pricing.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 20px;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 8px; color: var(--text-main);"><i class="fa-solid fa-tag" style="color: var(--brand-red); margin-right: 8px;"></i> How does the visit charge discount work?</h4>
+            <p style="font-size: 0.925rem;">When our technician inspects the issue and you approve the quotation to carry out the repair work with MrFixer, the initial inspection fee (e.g. ₹499 / ₹799) is discounted directly from your total repair invoice.</p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 20px;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 8px; color: var(--text-main);"><i class="fa-solid fa-box-open" style="color: var(--brand-red); margin-right: 8px;"></i> Are spare parts included in the visit fee?</h4>
+            <p style="font-size: 0.925rem;">No, the visit fee covers the certified technician's travel, precision diagnostics, and initial inspection. Any required replacement parts (pipes, MCBs, capacitors, copper tubing) are charged transparently based on standard market prices.</p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 20px;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 8px; color: var(--text-main);"><i class="fa-solid fa-truck-fast" style="color: var(--brand-red); margin-right: 8px;"></i> How quickly can a technician arrive in Trichy?</h4>
+            <p style="font-size: 0.925rem;">We offer scheduled time slots throughout the day (Morning, Afternoon, Evening) as well as rapid dispatch for urgent plumbing, electrical, or AC breakdown emergencies within Trichy city limits.</p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 20px;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 8px; color: var(--text-main);"><i class="fa-solid fa-building" style="color: var(--brand-red); margin-right: 8px;"></i> Do you provide commercial & enterprise AMC contracts?</h4>
+            <p style="font-size: 0.925rem;">Yes! We provide tailored Annual Maintenance Contracts (AMC) and Total Facilities Management (TFM) for corporate offices, hospitals, retail chains, schools, and factories with SLA-backed guarantees and digital reporting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BOOKING SUCCESS MODAL -->
+  <div id="bookingSuccessModal" class="modal-overlay">
+    <div class="modal-dialog">
+      <div class="modal-success-icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h2 style="font-size: 1.75rem; margin-bottom: 10px;">Booking Request Received!</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); margin-bottom: 18px;">
+        Thank you! Your enquiry has been submitted and emailed to our operations desk (<strong>saravanan.vp@mrfixers.in</strong>).
+      </p>
+      
+      <div style="background: var(--bg-surface-alt); padding: 14px; border-radius: var(--radius-md); margin-bottom: 24px;">
+        <span style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Booking Reference ID:</span>
+        <div id="bookingRefNumber" style="font-size: 1.4rem; font-weight: 900; color: var(--brand-red); font-family: 'Outfit', sans-serif;">MFX-2026-XXXX</div>
+      </div>
+
+      <p style="font-size: 0.9rem; margin-bottom: 24px;">
+        Our coordinator will call you shortly to confirm technician arrival. For immediate instant confirmation, you can also send this request via WhatsApp:
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <a id="modalWhatsAppBtn" href="#" target="_blank" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Confirm Immediately on WhatsApp
+        </a>
+        <button class="btn btn-secondary modal-close-btn">Close Window</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- UNIVERSAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="footer-logo">
+          <p>Mr.Fixers is a premier facilities management and technical services company delivering world-class maintenance standards for homes, businesses, and industrial infrastructure.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/917010180190" target="_blank" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us & UAE Heritage</a>
+            <a href="services.html">Services Catalog</a>
+            <a href="services.html#rate-card">Transparent Rate Card</a>
+            <a href="services.html#beyond-maintenance">Smart Energy Solutions</a>
+            <a href="enquiry.html">Book Service / Enquiry</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#ac-service">AC Servicing & Jet Cleaning</a>
+            <a href="services.html#electrical">Electrical & Wiring Repair</a>
+            <a href="services.html#plumbing">Plumbing & Leak Detection</a>
+            <a href="services.html#painting">Painting & Civil Finishes</a>
+            <a href="services.html#commercial">Commercial Facility AMC</a>
+            <a href="services.html#tfm">Total Facilities Management</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Trichy, Tamil Nadu, India</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+917010180190" style="color: #cbd5e1; font-weight: 700;">+91 7010180190</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:saravanan.vp@mrfixers.in" style="color: #cbd5e1;">saravanan.vp@mrfixers.in</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Mon - Sun: 8:00 AM - 9:00 PM<br>(24/7 Emergency Support)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          Copyright &copy; 2026 <span class="footer-bottom-company">Mr.Fixers India Pvt Ltd</span>. All rights reserved.
+        </div>
+        <div>
+          <span>Tagline: <em>"WE FIX. YOU MOVE FORWARD."</em></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/917010180190?text=Hi%20Mr.Fixer,%20I%20have%20an%20enquiry." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-grid">
+      <a href="tel:+917010180190" class="btn btn-navy btn-sm" style="padding: 10px;">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+      <a href="enquiry.html" class="btn btn-primary btn-sm" style="padding: 10px;">
+        <i class="fa-solid fa-calendar-check"></i> Book Fixer
+      </a>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/enquiry.js"></script>
+</body>
+</html>

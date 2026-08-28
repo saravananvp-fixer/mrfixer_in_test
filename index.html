@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mr.Fixers India Pvt Ltd - Integrated Facilities Management & Technical Services. AC Service, Electrical, Plumbing, Painting & Commercial Maintenance in Trichy & Tamil Nadu.">
+  <meta name="keywords" content="Mr.Fixers, MrFixer, AC Service Trichy, Electrician Trichy, Plumber Trichy, Facility Management Tamil Nadu, Urban Company Trichy">
+  <title>Mr.Fixers | Integrated Facilities Management & Technical Services</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- FontAwesome Icons (HTTPS) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Zero-Flicker Dark Mode Init -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('mrfixers_theme_preference');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement & Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-item">
+          <span class="top-badge">UAE STANDARD</span>
+          Bringing 20+ Years Middle East Facility Excellence to India
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+917010180190">+91 7010180190</a>
+        </span>
+        <span class="top-bar-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:sales@mrfixer.in">sales@mrfixer.in</a>
+        </span>
+        <span class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          Trichy, Tamil Nadu
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo-wrap">
+        <img src="assets/images/logo-light.svg" alt="Mr.Fixers" class="brand-logo logo-light-only">
+        <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="brand-logo logo-dark-only">
+      </a>
+
+      <!-- City Badge -->
+      <div class="city-pill">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Trichy, TN</span>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services & Rates</a>
+        <a href="services.html#beyond-maintenance" class="nav-link">Smart Solutions</a>
+        <a href="enquiry.html" class="nav-link">Contact & Book</a>
+      </nav>
+
+      <!-- Header Actions: Theme Toggle & CTA -->
+      <div class="header-actions">
+        <!-- Light / Dark Mode Toggle Button -->
+        <button class="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="enquiry.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Book a Fixer</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle-btn" aria-label="Open navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer -->
+  <div class="mobile-drawer">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <img src="assets/images/logo-light.svg" alt="Mr.Fixers" class="brand-logo logo-light-only" style="height: 38px;">
+        <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="brand-logo logo-dark-only" style="height: 38px;">
+        <button class="drawer-close-btn" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="drawer-nav">
+        <a href="index.html" class="active"><span><i class="fa-solid fa-house" style="margin-right: 12px; color: var(--brand-red);"></i>Home</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="about.html"><span><i class="fa-solid fa-building" style="margin-right: 12px; color: var(--brand-red);"></i>About Us</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html"><span><i class="fa-solid fa-screwdriver-wrench" style="margin-right: 12px; color: var(--brand-red);"></i>Services & Rates</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html#beyond-maintenance"><span><i class="fa-solid fa-bolt-lightning" style="margin-right: 12px; color: var(--brand-red);"></i>Smart Solutions</span> <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="enquiry.html"><span><i class="fa-solid fa-headset" style="margin-right: 12px; color: var(--brand-red);"></i>Contact & Enquiry</span> <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="drawer-footer">
+        <a href="tel:+917010180190" class="btn btn-navy">
+          <i class="fa-solid fa-phone"></i> Call 7010180190
+        </a>
+        <a href="https://wa.me/917010180190?text=Hi%20Mr.Fixer,%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION (URBAN COMPANY INSPIRED) -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Left Content -->
+          <div class="hero-content">
+            <div class="hero-badge-pill">
+              <span class="badge badge-red">
+                <i class="fa-solid fa-shield-halved"></i> Integrated Facilities & Technical Services
+              </span>
+            </div>
+            
+            <h1 class="hero-title">
+              Professional Care for Your <span class="text-gradient">Home & Business</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+              Expert AC, Electrical, Plumbing, Painting & Total Facility Solutions. Built on <strong>20+ years of Dubai & Middle East leadership</strong>, delivering world-class reliability in India.
+            </p>
+
+            <!-- Search Bar (Urban Company Style) -->
+            <div class="service-search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" class="service-search-input" placeholder="Search for AC service, electrician, plumbing, painting..." aria-label="Search services">
+              <a href="services.html" class="btn btn-primary btn-sm">Explore</a>
+            </div>
+
+            <!-- Quick Service Pick Chips -->
+            <div class="quick-categories">
+              <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted); margin-right: 4px;">Popular:</span>
+              <a href="services.html#ac-service" class="quick-category-chip">
+                <i class="fa-solid fa-snowflake"></i> AC Service (₹799)
+              </a>
+              <a href="services.html#electrical" class="quick-category-chip">
+                <i class="fa-solid fa-bolt"></i> Electrician (₹499)
+              </a>
+              <a href="services.html#plumbing" class="quick-category-chip">
+                <i class="fa-solid fa-faucet-drip"></i> Plumber (₹499)
+              </a>
+              <a href="services.html#painting" class="quick-category-chip">
+                <i class="fa-solid fa-paint-roller"></i> Painting (Free Quote)
+              </a>
+              <a href="services.html#commercial" class="quick-category-chip">
+                <i class="fa-solid fa-city"></i> Facility Management
+              </a>
+            </div>
+
+            <!-- Trust Stats Strip -->
+            <div class="trust-stats-strip">
+              <div class="trust-stat-item">
+                <div class="trust-stat-icon"><i class="fa-solid fa-user-check"></i></div>
+                <div class="trust-stat-text">
+                  <h4>Verified Techs</h4>
+                  <p>Background checked</p>
+                </div>
+              </div>
+              <div class="trust-stat-item">
+                <div class="trust-stat-icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="trust-stat-text">
+                  <h4>On-Time</h4>
+                  <p>Prompt assistance</p>
+                </div>
+              </div>
+              <div class="trust-stat-item">
+                <div class="trust-stat-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <div class="trust-stat-text">
+                  <h4>Transparent</h4>
+                  <p>Upfront rate cards</p>
+                </div>
+              </div>
+              <div class="trust-stat-item">
+                <div class="trust-stat-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="trust-stat-text">
+                  <h4>UAE Quality</h4>
+                  <p>20+ yrs expertise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Media Showcase -->
+          <div class="hero-media-wrap">
+            <div class="hero-main-card">
+              <img src="assets/images/hero-technician.jpg" alt="Mr.Fixers Professional Technician servicing AC">
+            </div>
+
+            <!-- Floating Trust Badges -->
+            <div class="floating-badge floating-badge-1">
+              <div class="floating-icon">
+                <i class="fa-solid fa-medal"></i>
+              </div>
+              <div class="floating-text">
+                <h5>20+ Years</h5>
+                <p>UAE / Dubai FM Experience</p>
+              </div>
+            </div>
+
+            <div class="floating-badge floating-badge-2">
+              <div class="floating-icon" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                <i class="fa-solid fa-tag"></i>
+              </div>
+              <div class="floating-text">
+                <h5>Fee Discounted</h5>
+                <p>When work is awarded to MrFixer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE SERVICES SECTION WITH RATE CARDS -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge badge-red"><i class="fa-solid fa-wrench"></i> What We Do</span>
+          <h2 class="section-title">Complete Facility & Maintenance Solutions</h2>
+          <p class="section-desc">From single maintenance needs at home to complete facilities management of large commercial properties, we have you covered.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="services-filter-tabs">
+          <button class="filter-tab-btn active" data-category="all">All Services</button>
+          <button class="filter-tab-btn" data-category="residential">Residential</button>
+          <button class="filter-tab-btn" data-category="commercial">Commercial</button>
+          <button class="filter-tab-btn" data-category="industrial">Industrial</button>
+          <button class="filter-tab-btn" data-category="tfm">Total FM</button>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+          <!-- Service 1: AC Service -->
+          <div class="service-card" data-category="residential" id="ac-service">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/ac-service.jpg" alt="AC Servicing and Installation" class="service-card-img">
+              <span class="service-card-badge"><i class="fa-solid fa-snowflake"></i> High Demand</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">AC Service & Repair</h3>
+              <p class="service-card-desc">Keep your cool with our expert AC servicing. Better cooling, clean healthy air, and lower electricity bills.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> AC Installation & Uninstallation</li>
+                <li><i class="fa-solid fa-circle-check"></i> Deep Jet Pump Servicing</li>
+                <li><i class="fa-solid fa-circle-check"></i> Gas Leak Check & Refilling</li>
+                <li><i class="fa-solid fa-circle-check"></i> Duct & Filter Cleaning</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Visit Charge</span>
+                  <div class="price-amount">₹799</div>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="openBookingForService('AC Service & Repair')">
+                  <i class="fa-solid fa-bolt"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Electrician Visit -->
+          <div class="service-card" data-category="residential commercial" id="electrical">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/electrician.jpg" alt="Electrician Visit and Wiring" class="service-card-img">
+              <span class="service-card-badge"><i class="fa-solid fa-bolt"></i> Essential</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Electrician Visit</h3>
+              <p class="service-card-desc">Safe, reliable, and professional electrical services for homes, shops, and offices by certified electricians.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Wiring & Complete Rewiring</li>
+                <li><i class="fa-solid fa-circle-check"></i> MCB & Distribution Board Setup</li>
+                <li><i class="fa-solid fa-circle-check"></i> Lights, Fans & Appliance Installation</li>
+                <li><i class="fa-solid fa-circle-check"></i> Short Circuit & Fault Diagnosis</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Inspection Fee</span>
+                  <div class="price-amount">₹499</div>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="openBookingForService('Electrician Visit')">
+                  <i class="fa-solid fa-bolt"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Plumbing -->
+          <div class="service-card" data-category="residential commercial" id="plumbing">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/plumbing.jpg" alt="Plumbing Inspection and Repairs" class="service-card-img">
+              <span class="service-card-badge"><i class="fa-solid fa-faucet"></i> Fast Response</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Plumbing Solutions</h3>
+              <p class="service-card-desc">Fast and effective plumbing solutions for a leak-free, clean, and worry-free living space.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Leak Detection & Precision Repair</li>
+                <li><i class="fa-solid fa-circle-check"></i> Pipe Fitting & Tap Replacement</li>
+                <li><i class="fa-solid fa-circle-check"></i> Drain Unclogging & Cleaning</li>
+                <li><i class="fa-solid fa-circle-check"></i> Bathroom & Kitchen Sanitary Fittings</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Inspection Fee</span>
+                  <div class="price-amount">₹499</div>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="openBookingForService('Plumbing Solutions')">
+                  <i class="fa-solid fa-bolt"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4: Painting & Civil Works -->
+          <div class="service-card" data-category="residential commercial" id="painting">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/painting.jpg" alt="Painting and Civil Works" class="service-card-img">
+              <span class="service-card-badge badge-green" style="background: #10b981;"><i class="fa-solid fa-gift"></i> Free Visit</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Painting & Civil Works</h3>
+              <p class="service-card-desc">Give your space a fresh, vibrant new look with premium painting, waterproofing, and surface finishing.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Interior & Exterior Painting</li>
+                <li><i class="fa-solid fa-circle-check"></i> Wall Repair, Putty & Primer</li>
+                <li><i class="fa-solid fa-circle-check"></i> Waterproofing & Texture Finishes</li>
+                <li><i class="fa-solid fa-circle-check"></i> Free Measurement & Color Consultation</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Site Visit & Quote</span>
+                  <div class="price-amount" style="color: #10b981;">FREE</div>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="openBookingForService('Painting & Civil Works')">
+                  <i class="fa-solid fa-file-invoice"></i> Get Quote
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 5: Commercial Facility Management -->
+          <div class="service-card" data-category="commercial tfm" id="commercial">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/commercial.jpg" alt="Commercial Building Facilities Management" class="service-card-img">
+              <span class="service-card-badge"><i class="fa-solid fa-briefcase"></i> Enterprise</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Commercial Maintenance</h3>
+              <p class="service-card-desc">Comprehensive facility care for office buildings, retail outlets, hospitals, clinics, and educational institutions.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Planned Preventive Maintenance (PPM)</li>
+                <li><i class="fa-solid fa-circle-check"></i> HVAC & Central Plant Operations</li>
+                <li><i class="fa-solid fa-circle-check"></i> MEP & Emergency Breakdown Support</li>
+                <li><i class="fa-solid fa-circle-check"></i> Dedicated 24/7 Facility Helpdesk</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Contract Type</span>
+                  <div class="price-amount" style="font-size: 1.15rem; color: var(--text-main);">Custom AMC</div>
+                </div>
+                <button class="btn btn-navy btn-sm" onclick="openBookingForService('Commercial Maintenance')">
+                  <i class="fa-solid fa-building"></i> Consult Us
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 6: Industrial & Total FM -->
+          <div class="service-card" data-category="industrial tfm">
+            <div class="service-card-img-wrap">
+              <img src="assets/images/services/industrial.jpg" alt="Industrial Technical Services" class="service-card-img">
+              <span class="service-card-badge"><i class="fa-solid fa-industry"></i> Heavy Duty</span>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Industrial & Utility Services</h3>
+              <p class="service-card-desc">Heavy-duty technical support, mechanical & electrical utility operations, shutdown support, and safety compliance.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Electrical & Mechanical Utility Mgt</li>
+                <li><i class="fa-solid fa-circle-check"></i> Industrial Equipment Maintenance</li>
+                <li><i class="fa-solid fa-circle-check"></i> Shutdown & Overhaul Support</li>
+                <li><i class="fa-solid fa-circle-check"></i> Strict Safety & Statutory Compliance</li>
+              </ul>
+              <div class="service-pricing-row">
+                <div class="pricing-block">
+                  <span class="price-label">Consultation</span>
+                  <div class="price-amount" style="font-size: 1.15rem; color: var(--text-main);">B2B SLA</div>
+                </div>
+                <button class="btn btn-navy btn-sm" onclick="openBookingForService('Industrial & Utility Services')">
+                  <i class="fa-solid fa-file-contract"></i> Contact B2B
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transparent Rate Card Policy Notice (Directly from Flyer) -->
+        <div class="rate-card-notice">
+          <i class="fa-solid fa-circle-info"></i>
+          <div>
+            <p><strong>Transparent Pricing Promise:</strong> Visit charges will be <strong>DISCOUNTED</strong> if the fixing issue is identified and work is awarded to MrFixer. Visit charges do not include spare parts / materials. Any required spares are billed extra at transparent standard market rates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE ESTIMATOR / RATE CALCULATOR WIDGET -->
+    <section class="calculator-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge badge-primary"><i class="fa-solid fa-calculator"></i> Transparent Pricing</span>
+          <h2 class="section-title">Instant Service Cost Estimator</h2>
+          <p class="section-desc">Select the services you require to calculate your upfront inspection and visit charges.</p>
+        </div>
+
+        <div class="calculator-card">
+          <!-- Left: Selection Items -->
+          <div class="calc-services-list">
+            <label class="calc-item selected">
+              <div class="calc-item-left">
+                <input type="checkbox" class="calc-checkbox" data-service="ac" checked>
+                <div>
+                  <div class="calc-item-title">AC Tech Service Visit</div>
+                  <div class="calc-item-desc">Comprehensive AC health check, filter inspection & diagnostic</div>
+                </div>
+              </div>
+              <div class="calc-item-price">₹799</div>
+            </label>
+
+            <label class="calc-item">
+              <div class="calc-item-left">
+                <input type="checkbox" class="calc-checkbox" data-service="electrician">
+                <div>
+                  <div class="calc-item-title">Electrician Inspection</div>
+                  <div class="calc-item-desc">Wiring diagnosis, switchboard, lighting & MCB testing</div>
+                </div>
+              </div>
+              <div class="calc-item-price">₹499</div>
+            </label>
+
+            <label class="calc-item">
+              <div class="calc-item-left">
+                <input type="checkbox" class="calc-checkbox" data-service="plumber">
+                <div>
+                  <div class="calc-item-title">Plumber Inspection</div>
+                  <div class="calc-item-desc">Leak detection, pipeline health, faucet & drainage inspection</div>
+                </div>
+              </div>
+              <div class="calc-item-price">₹499</div>
+            </label>
+
+            <label class="calc-item">
+              <div class="calc-item-left">
+                <input type="checkbox" class="calc-checkbox" data-service="painting">
+                <div>
+                  <div class="calc-item-title">Painting & Civil Site Visit</div>
+                  <div class="calc-item-desc">Wall area measurement, putty assessment & custom shade quote</div>
+                </div>
+              </div>
+              <div class="calc-item-price" style="color: #10b981;">FREE</div>
+            </label>
+          </div>
+
+          <!-- Right: Summary & Booking Trigger -->
+          <div class="calc-summary-box">
+            <div>
+              <h3 class="calc-summary-title">Estimate Summary</h3>
+              <div id="calcBreakdownList" class="calc-breakdown">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+            <div>
+              <div class="calc-total-row">
+                <span class="calc-total-label">Total Visit Estimate:</span>
+                <span id="calcTotalAmount" class="calc-total-amount">₹799</span>
+              </div>
+              <p id="calcDiscountNote" style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 16px;">
+                💡 *Fee will be discounted upon confirming repair work with MrFixer.
+              </p>
+              <button id="calcProceedBtn" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-arrow-right"></i> Book Selected Services
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE MR.FIXERS -->
+    <section class="why-us-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge badge-red"><i class="fa-solid fa-star"></i> The MrFixers Advantage</span>
+          <h2 class="section-title">Why Customers Trust Mr.Fixers</h2>
+          <p class="section-desc">We bring international facility standards, transparent practices, and skilled engineering to every home and business.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-card-icon"><i class="fa-solid fa-city"></i></div>
+            <h3>20+ Years UAE Experience</h3>
+            <p>Founded by facility management leaders with over two decades of experience handling iconic Dubai towers, communities, and commercial spaces.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Trained & Verified Techs</h3>
+            <p>Every technician undergoes strict background verification, professional skill training, and safety compliance checks.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-icon"><i class="fa-solid fa-receipt"></i></div>
+            <h3>Zero Hidden Charges</h3>
+            <p>Fixed rate cards, itemized billing, and upfront quotes. Inspection fee is discounted when work is awarded to us.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-icon"><i class="fa-solid fa-headset"></i></div>
+            <h3>24/7 Dedicated Helpdesk</h3>
+            <p>Round-the-clock customer support and rapid dispatch for urgent plumbing, electrical, and AC breakdown emergencies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPERATING MODEL (5-STEP WORKFLOW) -->
+    <section class="process-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge badge-primary"><i class="fa-solid fa-diagram-project"></i> Our Operating Model</span>
+          <h2 class="section-title">You Focus on Your Life. We Take Care of Your Space.</h2>
+          <p class="section-desc">Our streamlined 5-step operational workflow guarantees precision execution and continuous reliability.</p>
+        </div>
+
+        <div class="process-steps-grid">
+          <div class="process-step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+            <h4>Understand</h4>
+            <p>We assess your facility requirements, pain points, and specific expectations.</p>
+          </div>
+
+          <div class="process-step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+            <h4>Plan & Assess</h4>
+            <p>Customized maintenance strategy, scheduling, and resource allocation.</p>
+          </div>
+
+          <div class="process-step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fa-solid fa-gears"></i></div>
+            <h4>Execute</h4>
+            <p>Skilled technicians execute repairs and installations with quality materials.</p>
+          </div>
+
+          <div class="process-step-card">
+            <div class="step-number">04</div>
+            <div class="step-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h4>Monitor</h4>
+            <p>Rigorous quality checks, digital reporting, and performance tracking.</p>
+          </div>
+
+          <div class="process-step-card">
+            <div class="step-number">05</div>
+            <div class="step-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+            <h4>Improve</h4>
+            <p>Continuous optimization to extend asset lifecycle and reduce long-term costs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS & TESTIMONIALS -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge badge-green"><i class="fa-solid fa-comment-dots"></i> Testimonials</span>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-desc">Real feedback from homeowners and facility managers who rely on MrFixer.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="star-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">"MrFixer's team serviced our split ACs. The technicians were punctual, wore clean uniforms, and used jet pump cleaning without creating any mess. Superb service standard in Trichy!"</p>
+            <div class="testimonial-user">
+              <div class="user-avatar">RK</div>
+              <div class="user-info">
+                <h4>Rajesh Kumar</h4>
+                <p>Thillai Nagar, Trichy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="star-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">"We contracted MrFixers for our 4-storey commercial office MEP and electrical maintenance. Having leadership with Dubai FM experience really shows in their safety and transparent reporting."</p>
+            <div class="testimonial-user">
+              <div class="user-avatar" style="background: #e63946;">SS</div>
+              <div class="user-info">
+                <h4>Sundaram S.</h4>
+                <p>Commercial Complex Director</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="star-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">"Fixed a stubborn bathroom leak that two other plumbers failed to solve. The diagnostic was fast, the quote was reasonable, and the visit fee was discounted from the final bill as promised."</p>
+            <div class="testimonial-user">
+              <div class="user-avatar" style="background: #0284c7;">MP</div>
+              <div class="user-info">
+                <h4>Meenakshi P.</h4>
+                <p>K.K. Nagar, Trichy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMERGENCY BOOKING CTA BANNER -->
+    <div class="container">
+      <div class="cta-banner">
+        <div class="container cta-banner-inner">
+          <div class="cta-text">
+            <h2>One Call. All Solutions. Total Peace of Mind.</h2>
+            <p>Need urgent electrical, plumbing or AC repair? Our quick response team is ready to assist you today.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="tel:+917010180190" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-phone"></i> Call 7010180190
+            </a>
+            <a href="https://wa.me/917010180190?text=Hello%20MrFixer,%20I%20need%20urgent%20service%20assistance." target="_blank" class="btn btn-whatsapp btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp Booking
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- UNIVERSAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Slogan -->
+        <div class="footer-brand">
+          <img src="assets/images/logo-dark.svg" alt="Mr.Fixers" class="footer-logo">
+          <p>Mr.Fixers is a premier facilities management and technical services company delivering world-class maintenance standards for homes, businesses, and industrial infrastructure.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/917010180190" target="_blank" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us & UAE Heritage</a>
+            <a href="services.html">Services Catalog</a>
+            <a href="services.html#rate-card">Transparent Rate Card</a>
+            <a href="services.html#beyond-maintenance">Smart Energy Solutions</a>
+            <a href="enquiry.html">Book Service / Enquiry</a>
+          </div>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#ac-service">AC Servicing & Jet Cleaning</a>
+            <a href="services.html#electrical">Electrical & Wiring Repair</a>
+            <a href="services.html#plumbing">Plumbing & Leak Detection</a>
+            <a href="services.html#painting">Painting & Civil Finishes</a>
+            <a href="services.html#commercial">Commercial Facility AMC</a>
+            <a href="services.html#tfm">Total Facilities Management</a>
+          </div>
+        </div>
+
+        <!-- Col 4: Contact & Trichy HQ -->
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Trichy, Tamil Nadu, India</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+917010180190" style="color: #cbd5e1; font-weight: 700;">+91 7010180190</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:sales@mrfixer.in" style="color: #cbd5e1;">sales@mrfixer.in</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Mon - Sun: 8:00 AM - 9:00 PM<br>(24/7 Emergency Support)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Copyright Bar -->
+      <div class="footer-bottom">
+        <div>
+          Copyright &copy; 2026 <span class="footer-bottom-company">Mr.Fixers India Pvt Ltd</span>. All rights reserved.
+        </div>
+        <div>
+          <span>Tagline: <em>"WE FIX. YOU MOVE FORWARD."</em></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/917010180190?text=Hi%20Mr.Fixer,%20I%20would%20like%20to%20book%20a%20service." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-grid">
+      <a href="tel:+917010180190" class="btn btn-navy btn-sm" style="padding: 10px;">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+      <a href="enquiry.html" class="btn btn-primary btn-sm" style="padding: 10px;">
+        <i class="fa-solid fa-calendar-check"></i> Book Fixer
+      </a>
+    </div>
+  </div>
+
+  <!-- JavaScript Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/rate-calculator.js"></script>
+</body>
+</html>
